@@ -1,0 +1,10 @@
+# Directories
+*.egg-info/*
+build/
+dist/
+
+# Files
+MANIFEST
+.DS_Store
+*.pyc
+*.exe

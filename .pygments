@@ -1,0 +1,9 @@
+[pygments.styles]
+github = styles.github:GithubStyle
+monokai_light = styles.monokai_light:MonokaiLightStyle
+railscasts = styles.railscasts:RailscastsStyle
+tomorrow = styles.tomorrow:TomorrowStyle
+tomorrow_night = styles.tomorrow_night:TomorrowNightStyle
+tomorrow_night_blue = styles.tomorrow_night_blue:TomorrowNightBlueStyle
+tomorrow_night_bright = styles.tomorrow_night_bright:TomorrowNightBrightStyle
+tomorrow_night_eighties = styles.tomorrow_night_eighties:TomorrowNightEightiesStyle
