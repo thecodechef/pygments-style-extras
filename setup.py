@@ -1,10 +1,15 @@
 from setuptools import setup, find_packages
- 
+
+def read(fname):
+  import os
+  return open(os.path.join(os.path.dirname(__file__),fname)).read()
+
+
 setup (
   name='pygments-style-extras',
-  version='0.0.2',
+  version='0.0.3',
   description='A Collection of Custom Pygments Styles',
-  long_description='A Collection of Custom Pygments Styles',
+  long_description=read('README.rst'),
   license='MIT',
   keywords='pygments style extras',
 
@@ -12,13 +17,13 @@ setup (
   author_email='cyberchefjay@gmail.com',
 
   url='https://github.com/thecodechef/pygments-style-extras',
-  download_url='https://github.com/thecodechef/pygments-style-extras/tarball/0.0.2',
+  download_url='https://github.com/thecodechef/pygments-style-extras/tarball/0.0.3',
 
 
   packages=find_packages(),
   install_requires=['pygments >= 1.5'],
   
-  entry_points =open('.pygments').read(),
+  entry_points =read('.pygments'),
 
   classifiers=[
     'Development Status :: 1 - Planning',

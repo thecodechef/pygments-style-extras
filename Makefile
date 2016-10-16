@@ -1,28 +1,31 @@
 
-all: clean build
+all: clean build clean
 
 build:
-	@sudo python setup.py sdist upload
+	@sudo python setup.py sdist
+	@sudo python setup.py bdist bdist_egg bdist_wheel
+	@sudo twine upload --config-file ~/.pypirc dist/*
+	@make clean
 
-py_install: build
+install: build
 	@sudo python setup.py install
 
-book-install:
+gb_install:
 	@gitbook install
 
-book-build: book-install
+gb_build: gb_install
 	@gitbook build
 
-book-serve: book-build
+gb_serve: gb_build
 	@gitbook serve
 
 clean:
-	@rm -rf *.zip
-	@rm -rf *.tar.gz
-	@rm -rf *.7z
-	@rm -rf *.rar
-	@rm -rf *.exe
-	@rm -rf build/
-	@rm -rf dist/
-	@rm -rf _book/
+	@sudo rm -rf *.zip
+	@sudo rm -rf *.tar.gz
+	@sudo rm -rf *.7z
+	@sudo rm -rf *.rar
+	@sudo rm -rf *.exe
+	@sudo rm -rf build/
+	@sudo rm -rf dist/
+	@sudo rm -rf _book/
 	@sudo rm -rf *.egg-info
