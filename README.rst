@@ -46,11 +46,7 @@ Available Styles
 . github
 . monokai_light
 . railscasts
-. tomorrow
-. tomorrow_night
-. tomorrow_night_blue
-. tomorrow_night_bright
-. tomorrow_night_eighties
+. ``and Many Nore on the way``
 
 Github Example
 ----------------
