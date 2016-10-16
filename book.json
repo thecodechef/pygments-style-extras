@@ -1,0 +1,10 @@
+{
+	"root": "docs",
+	"title": "Pygments Extras",
+	"author": "Jeremy Bolding",
+	"plugins":[
+		"theme-official"
+	],
+	"pluginsConfig": {},
+	"variables": {}
+}

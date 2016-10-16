@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
  
 setup (
   name='pygments-style-extras',
-  version='0.0.1',
+  version='0.0.2',
   description='A Collection of Custom Pygments Styles',
   long_description='A Collection of Custom Pygments Styles',
   license='MIT',
@@ -12,7 +12,7 @@ setup (
   author_email='cyberchefjay@gmail.com',
 
   url='https://github.com/thecodechef/pygments-style-extras',
-  download_url='https://github.com/thecodechef/pygments-style-extras/tarball/0.0.1',
+  download_url='https://github.com/thecodechef/pygments-style-extras/tarball/0.0.2',
 
 
   packages=find_packages(),

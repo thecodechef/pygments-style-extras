@@ -43,10 +43,10 @@ Export the style as CSS
 
 Available Styles
 ----------------
-. github
-. monokai_light
-. railscasts
-. ``and Many Nore on the way``
+- github
+- monokai_light
+- railscasts
+- ``and Many Nore on the way``
 
 Github Example
 ----------------
@@ -91,10 +91,3 @@ Please read the `official documentation`_ for further information on the usage
 of pygment styles.
 
 .. _official documentation: http://pygments.org/docs/
-
-
-Thanks
-======
-
-Contributors
-------------

@@ -2,18 +2,27 @@
 all: clean build
 
 build:
-	python setup.py bdist_egg upload
-	python setup.py sdist upload
+	@sudo python setup.py sdist upload
 
-install:
-	python setup.py install
+py_install: build
+	@sudo python setup.py install
+
+book-install:
+	@gitbook install
+
+book-build: book-install
+	@gitbook build
+
+book-serve: book-build
+	@gitbook serve
 
 clean:
-	rm -rf *.egg-info
-	rm -rf *.zip
-	rm -rf *.tar.gz
-	rm -rf *.7z
-	rm -rf *.rar
-	rm -rf *.exe
-	rm -rf build/
-	rm -rf dist/
+	@rm -rf *.zip
+	@rm -rf *.tar.gz
+	@rm -rf *.7z
+	@rm -rf *.rar
+	@rm -rf *.exe
+	@rm -rf build/
+	@rm -rf dist/
+	@rm -rf _book/
+	@sudo rm -rf *.egg-info

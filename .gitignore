@@ -1,10 +1,18 @@
 # Directories
 *.egg-info/*
-build/
-dist/
+build/*
+dist/*
+_book/*
+node_modules/*
+components/*
+bower_components/*
 
 # Files
 MANIFEST
 .DS_Store
 *.pyc
 *.exe
+*.zip
+*.7z
+*.rar
+*.tar.gz

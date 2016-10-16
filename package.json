@@ -1,0 +1,26 @@
+{
+  "name":"pygments-style-extras",
+  "version": "0.0.2",
+  "description":"A Collection of Custom Pygments Styles.",
+  "author": {
+    "name": "Jeremy Bolding",
+    "email": "cyberchefjay@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thecodechef/pygments-style-extras.git"
+  },
+  "bugs":{
+    "url": "https://github.com/thecodechef/pygments-style-extras/issues"
+  },
+  "main": "setup.py",
+  "scripts": {
+  	"build": "sudo make build"
+  },
+  "dependencies": {
+    "gitbook-plugin-theme-official": "^2.1.1"
+  },
+  "devDependencies": {},
+  "peerDependencies": {},
+  "optionalDependencies": {}
+}

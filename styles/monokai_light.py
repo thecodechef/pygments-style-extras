@@ -1,11 +1,14 @@
-
 from pygments.style import Style
-from pygments.token import Keyword, Name, Comment, String, Error, Text, Number, Operator, Generic, Whitespace, Punctuation, Other, Literal
+from pygments.token import Keyword, Name, Comment, String, \
+    Error, Text, Number, Operator, Generic, Whitespace, \
+    Punctuation, Other, Literal
 
 class MonokaiLightStyle(Style):
     """
     This style mimics the Monokai color scheme.
     """
+
+    default_style = ''
 
     background_color = "#fafafa" #272822
     highlight_color = "#e6e3c3" #49483e
