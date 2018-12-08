@@ -1,6 +1,10 @@
 README
 ======
 
+.. image:: https://badges.greenkeeper.io/thecodechef/pygments-style-extras.svg
+   :alt: Greenkeeper badge
+   :target: https://greenkeeper.io/
+
 Pygments port of Github Color Scheme.
 
 Install
